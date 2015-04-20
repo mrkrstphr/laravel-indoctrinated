@@ -1,0 +1,21 @@
+{
+  "name": "mrkrstphr/laravel-indoctrinated",
+  "description": "A Laravel 5 Provider for Doctrine ORM",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kristopher Wilson",
+      "email": "kristopherwilson@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mrkrstphr\\LaravelIndoctrinated\\": "src/"
+    }
+  }
+  "require": {
+    "php": ">=5.5",
+    "doctrine/orm": "~2.5",
+    "laravel/framework": "~5.0"
+  }
+}
